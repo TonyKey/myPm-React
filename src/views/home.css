@@ -1,0 +1,546 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.home-mastertemplate {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.home-leftpanel {
+  width: 240px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  min-height: 100%;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(249, 250, 251, 1);
+}
+ 
+.home-leftpanelheader {
+  width: 240px;
+  height: 60px;
+  align-self: stretch;
+}
+ 
+.home-leftpanelinnerwrapper {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  padding: 16px 24px 40px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.home-menu {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.home-menulistitemdashboardselected {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(229, 231, 235, 1);
+}
+ 
+.home-tablericonhome {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text10 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-btnnewproject {
+  gap: 6px;
+  width: 152px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(142, 81, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.home-tablericonsparkles {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text11 {
+  color: rgba(142, 81, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-frame103 {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.home-menulistitem {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.home-tablericonfolder1 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text12 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-menuprojects1 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.home-tablericonfolder2 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text13 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-menuprojects2 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.home-tablericonfolder3 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text14 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-menuprojects3 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.home-tablericonfolder4 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text15 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-menuprojects4 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.home-tablericonfolder5 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text16 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-menusecondarybottom {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.home-menuprojects5 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.home-tablericonsettings2 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text17 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-menuprojects6 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.home-tablericonbook2 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text18 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-menuprojects7 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.home-tablericonlifebuoy {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text19 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-maincolumn {
+  width: 1200px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(229, 231, 235, 1);
+}
+ 
+.home-mainframeheader {
+  gap: 8px;
+  display: flex;
+  padding: 0 20px;
+  overflow: hidden;
+  align-self: stretch;
+  min-height: 60px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  justify-content: space-between;
+  background-color: rgba(249, 250, 251, 1);
+}
+ 
+.home-text20 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-nodebuttons {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.home-tablericondatabase {
+  width: 44px;
+  height: 44px;
+}
+ 
+.home-tablericonfile {
+  width: 44px;
+  height: 44px;
+}
+ 
+.home-tablericontemplate {
+  width: 44px;
+  height: 44px;
+}
+ 
+.home-tablericonsection {
+  width: 44px;
+  height: 44px;
+}
+ 
+.home-tablericoncomponents {
+  width: 44px;
+  height: 44px;
+}
+ 
+.home-headerright {
+  gap: 10px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+ 
+.home-userloggedin {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.home-tablericonusercircle {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-nameaccounttype {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.home-text21 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-text22 {
+  color: rgba(167, 139, 250, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 12px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-logout {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.home-tablericondoorexit {
+  width: 16px;
+  height: 16px;
+}
+ 
+.home-text23 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-maincanvas {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.home-footer {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  min-height: 44px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+  background-color: rgba(249, 250, 251, 1);
+}
+ 
+.home-text24 {
+  color: rgba(100, 116, 139, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

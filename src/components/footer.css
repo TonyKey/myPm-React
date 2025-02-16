@@ -1,0 +1,34 @@
+.footer-footer {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  min-height: 44px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  justify-content: center;
+  background-color: rgba(249, 250, 251, 1);
+}
+ 
+.footer-text1 {
+  color: rgba(100, 116, 139, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.footer-text2 {
+  display: inline-block;
+}
+ 
+

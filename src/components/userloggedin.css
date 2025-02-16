@@ -1,0 +1,53 @@
+.userloggedin-userloggedin {
+  gap: 4px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+ 
+.userloggedin-tablericonusercircle {
+  width: 16px;
+  height: 16px;
+}
+ 
+.userloggedin-nameaccounttype {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.userloggedin-text1 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.userloggedin-text2 {
+  color: rgba(167, 139, 250, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 12px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.userloggedin-text3 {
+  display: inline-block;
+}
+ 
+.userloggedin-text4 {
+  display: inline-block;
+}

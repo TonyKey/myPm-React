@@ -1,0 +1,374 @@
+.leftpanel-leftpanel {
+  width: 240px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  min-height: 100%;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(249, 250, 251, 1);
+}
+ 
+.leftpanel-leftpanelheader {
+  width: 240px;
+  height: 60px;
+  align-self: stretch;
+}
+ 
+.leftpanel-leftpanelinnerwrapper {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  padding: 16px 24px 40px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.leftpanel-menu {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.leftpanel-menulistitemdashboardselected {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(229, 231, 235, 1);
+}
+ 
+.leftpanel-tablericonhome {
+  width: 16px;
+  height: 16px;
+}
+ 
+.leftpanel-text10 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.leftpanel-btnnewproject {
+  gap: 6px;
+  width: 152px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(142, 81, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.leftpanel-tablericonsparkles {
+  width: 16px;
+  height: 16px;
+}
+ 
+.leftpanel-text11 {
+  color: rgba(142, 81, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.leftpanel-frame103 {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.leftpanel-menulistitem {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.leftpanel-tablericonfolder1 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.leftpanel-text12 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.leftpanel-menuprojects1 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.leftpanel-tablericonfolder2 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.leftpanel-text13 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.leftpanel-menuprojects2 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.leftpanel-tablericonfolder3 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.leftpanel-text14 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.leftpanel-menuprojects3 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.leftpanel-tablericonfolder4 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.leftpanel-text15 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.leftpanel-menuprojects4 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.leftpanel-tablericonfolder5 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.leftpanel-text16 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.leftpanel-menusecondarybottom {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.leftpanel-menuprojects5 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.leftpanel-tablericonsettings2 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.leftpanel-text17 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.leftpanel-menuprojects6 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.leftpanel-tablericonbook2 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.leftpanel-text18 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.leftpanel-menuprojects7 {
+  gap: 4px;
+  display: flex;
+  padding: 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.leftpanel-tablericonlifebuoy {
+  width: 16px;
+  height: 16px;
+}
+ 
+.leftpanel-text19 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.leftpanel-text20 {
+  display: inline-block;
+}
+ 
+.leftpanel-text21 {
+  display: inline-block;
+}
+ 
+.leftpanel-text22 {
+  display: inline-block;
+}
+ 
+.leftpanel-text23 {
+  display: inline-block;
+}
+ 
+.leftpanel-text24 {
+  display: inline-block;
+}
+ 
+.leftpanel-text25 {
+  display: inline-block;
+}
+ 
+.leftpanel-text26 {
+  display: inline-block;
+}
+ 
+.leftpanel-text27 {
+  display: inline-block;
+}
+ 
+.leftpanel-text28 {
+  display: inline-block;
+}
+ 
+.leftpanel-text29 {
+  display: inline-block;
+}

@@ -1,0 +1,434 @@
+.modal-component-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  max-width: 540px;
+  min-width: 450px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.modal-component-modalcomponentmaster {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  max-width: 540px;
+  box-shadow: 0px 4px 18px 2px rgba(0, 0, 0, 0.07000000029802322) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.modal-component-modal-header {
+  gap: 10px;
+  display: flex;
+  padding: 8px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.modal-component-text10 {
+  color: rgb(15, 23, 43);
+  height: auto;
+  flex-grow: 1;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Merriweather";
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.modal-component-vector {
+  width: 12px;
+  height: 12px;
+}
+ 
+.modal-component-frame3 {
+  gap: 8px;
+  display: flex;
+  padding: 24px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.modal-component-frame80 {
+  gap: 40px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.modal-component-frame54 {
+  gap: 24px;
+  width: 492px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.modal-component-input-group1 {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.modal-component-text11 {
+  color: rgb(15, 23, 42);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Merriweather";
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.modal-component-input1 {
+  gap: 8px;
+  color: rgba(2, 6, 24, 1);
+  display: flex;
+  padding: 8px 12px;
+  font-size: 14px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.modal-component-input-group2 {
+  gap: 4px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.modal-component-text12 {
+  color: rgb(15, 23, 42);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Merriweather";
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.modal-component-input2 {
+  gap: 8px;
+  color: rgba(2, 6, 24, 1);
+  display: flex;
+  padding: 8px 12px;
+  font-size: 14px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.modal-component-checkboxlabel1 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.modal-component-component11 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.modal-component-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: var(--dl-radius-radius-buttonradius);
+}
+ 
+.modal-component-text13 {
+  color: rgba(98, 116, 142, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.modal-component-textarea-group1 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-direction: column;
+}
+ 
+.modal-component-frame401 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.modal-component-text14 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.modal-component-text15 {
+  color: rgba(98, 116, 142, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.modal-component-frame81 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-direction: column;
+}
+ 
+.modal-component-textarea1 {
+  gap: 8px;
+  height: 93px;
+  display: flex;
+  padding: 8px 12px;
+  position: relative;
+  font-size: 14px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: "Noto Sans";
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.modal-component-frame821 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.modal-component-frame76 {
+  gap: 6px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  border-color: rgba(142, 81, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.modal-component-tablericonsparkles1 {
+  width: 16px;
+  height: 17px;
+}
+ 
+.modal-component-text16 {
+  color: rgba(142, 81, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.modal-component-frame77 {
+  gap: 6px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  border-color: rgba(142, 81, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.modal-component-tablericonsparkles2 {
+  width: 16px;
+  height: 17px;
+}
+ 
+.modal-component-text17 {
+  color: rgba(142, 81, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.modal-component-textarea-group2 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-direction: column;
+}
+ 
+.modal-component-frame402 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.modal-component-text18 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.modal-component-tablericonclipboard1 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.modal-component-textarea2 {
+  gap: 8px;
+  height: 93px;
+  display: flex;
+  padding: 8px 12px;
+  position: relative;
+  font-size: 14px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: "Noto Sans";
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.modal-component-frame822 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+ 
+.modal-component-tablericonclipboard2 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.modal-component-checkboxlabel2 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.modal-component-component12 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.modal-component-text19 {
+  color: rgba(98, 116, 142, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+@media(max-width: 479px) {
+  .modal-component-frame54 {
+    width: auto;
+  }
+}

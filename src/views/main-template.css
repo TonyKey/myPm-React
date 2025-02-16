@@ -1,0 +1,228 @@
+.main-template-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.main-template-mastertemplate {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.main-template-text10 {
+  display: inline-block;
+}
+ 
+.main-template-text11 {
+  display: inline-block;
+}
+ 
+.main-template-text12 {
+  display: inline-block;
+}
+ 
+.main-template-text13 {
+  display: inline-block;
+}
+ 
+.main-template-text14 {
+  display: inline-block;
+}
+ 
+.main-template-text15 {
+  display: inline-block;
+}
+ 
+.main-template-text16 {
+  display: inline-block;
+}
+ 
+.main-template-text17 {
+  display: inline-block;
+}
+ 
+.main-template-text18 {
+  display: inline-block;
+}
+ 
+.main-template-text19 {
+  display: inline-block;
+}
+ 
+.main-template-maincolumn {
+  flex: 1;
+  width: 1200px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(229, 231, 235, 1);
+}
+ 
+.main-template-mainframeheader {
+  gap: 8px;
+  display: flex;
+  padding: 0 20px;
+  overflow: hidden;
+  align-self: stretch;
+  min-height: 60px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  justify-content: space-between;
+  background-color: rgba(249, 250, 251, 1);
+}
+ 
+.main-template-text20 {
+  color: rgba(15, 23, 42, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.main-template-nodebuttons {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.main-template-tablericondatabase {
+  width: 44px;
+  height: 44px;
+}
+ 
+.main-template-tablericonfile {
+  width: 44px;
+  height: 44px;
+}
+ 
+.main-template-tablericontemplate {
+  width: 44px;
+  height: 44px;
+}
+ 
+.main-template-tablericonsection {
+  width: 44px;
+  height: 44px;
+}
+ 
+.main-template-tablericoncomponents {
+  width: 44px;
+  height: 44px;
+}
+ 
+.main-template-headerright {
+  gap: 10px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+ 
+.main-template-userloggedin {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.main-template-tablericonusercircle {
+  width: 16px;
+  height: 16px;
+}
+ 
+.main-template-nameaccounttype {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.main-template-text21 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.main-template-text22 {
+  color: rgba(167, 139, 250, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 12px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.main-template-logout {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.main-template-tablericondoorexit {
+  width: 16px;
+  height: 16px;
+}
+ 
+.main-template-text23 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.main-template-maincanvas {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.main-template-text24 {
+  display: inline-block;
+}

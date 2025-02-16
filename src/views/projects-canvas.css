@@ -1,0 +1,364 @@
+.projects-canvas-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.projects-canvas-maincolumn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(229, 231, 235, 1);
+}
+ 
+.projects-canvas-mainframeheader {
+  gap: 8px;
+  height: 60px;
+  display: flex;
+  padding: 0 20px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  justify-content: space-between;
+  background-color: rgba(249, 250, 251, 1);
+}
+ 
+.projects-canvas-container2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+.projects-canvas-text10 {
+  color: rgb(15, 23, 42);
+  display: flex;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Merriweather";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.projects-canvas-headerright {
+  gap: 10px;
+  flex: 1;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+ 
+.projects-canvas-text11 {
+  display: inline-block;
+}
+ 
+.projects-canvas-text12 {
+  display: inline-block;
+}
+ 
+.projects-canvas-logout {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.projects-canvas-tablericondoorexit {
+  width: 16px;
+  height: 16px;
+}
+ 
+.projects-canvas-text13 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.projects-canvas-maincanvasdashboard {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.projects-canvas-noprojectsbanner {
+  gap: 8px;
+  display: flex;
+  padding: 16px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.projects-canvas-text14 {
+  color: rgba(100, 116, 139, 1);
+  width: 623px;
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.projects-canvas-text15 {
+  color: rgba(100, 116, 139, 1);
+}
+ 
+.projects-canvas-yourprojectheader {
+  gap: 8px;
+  display: flex;
+  padding: 16px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.projects-canvas-text17 {
+  color: rgba(100, 116, 139, 1);
+  width: 623px;
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.projects-canvas-projectcards {
+  gap: 12px;
+  display: flex;
+  padding: 0 8px;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.projects-canvas-text18 {
+  display: inline-block;
+}
+ 
+.projects-canvas-text19 {
+  display: inline-block;
+}
+ 
+.projects-canvas-text20 {
+  display: inline-block;
+}
+ 
+.projects-canvas-text21 {
+  display: inline-block;
+}
+ 
+.projects-canvas-text22 {
+  display: inline-block;
+}
+ 
+.projects-canvas-text23 {
+  display: inline-block;
+}
+ 
+.projects-canvas-text24 {
+  display: inline-block;
+}
+ 
+.projects-canvas-text25 {
+  display: inline-block;
+}
+ 
+.projects-canvas-comingsoon {
+  gap: 8px;
+  display: flex;
+  padding: 16px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.projects-canvas-text26 {
+  color: rgba(100, 116, 139, 1);
+  width: 623px;
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.projects-canvas-comingsooncards {
+  gap: 20px;
+  display: flex;
+  padding: 0 12px;
+  align-items: flex-start;
+}
+ 
+.projects-canvas-comingsooncard1 {
+  gap: 8px;
+  height: 224px;
+  display: flex;
+  padding: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.projects-canvas-comingsooncardimage1 {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  align-self: stretch;
+  min-height: 100px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(30, 33, 53, 1);
+}
+ 
+.projects-canvas-comingsooncardcontent1 {
+  gap: 8px;
+  width: 238px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.projects-canvas-text27 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.projects-canvas-text28 {
+  color: rgba(98, 116, 142, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.projects-canvas-comingsooncard2 {
+  gap: 8px;
+  height: 224px;
+  display: flex;
+  padding: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.projects-canvas-comingsooncardimage2 {
+  gap: 8px;
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  align-self: stretch;
+  min-height: 100px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(30, 33, 53, 1);
+}
+ 
+.projects-canvas-comingsooncardcontent2 {
+  gap: 8px;
+  width: 238px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.projects-canvas-text29 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.projects-canvas-text30 {
+  color: rgba(98, 116, 142, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Merriweather;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.projects-canvas-text31 {
+  display: inline-block;
+}
+ 
+@media(max-width: 479px) {
+  .projects-canvas-comingsooncards {
+    flex-wrap: wrap;
+    align-self: stretch;
+  }
+}
